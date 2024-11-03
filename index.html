@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Your Name</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Home Section -->
+    <header id="home">
+        <h1>Hi, I'm <span>Sudharaka Ashen</span></h1>
+        <p>Aspiring iOS Developer and Software Engineer</p>
+        <a href="#projects" class="btn">View My Work</a>
+    </header>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I'm an undergraduate in Software Engineering with a passion for building impactful solutions. Experienced in web and mobile development.</p>
+        <h3>Skills</h3>
+        <ul>
+            <li>JavaScript</li>
+            <li>HTML & CSS</li>
+            <li>Python</li>
+            <li>iOS Development</li>
+        </ul>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Project Name</h3>
+            <p>Project description goes here. You can add links to the demo or GitHub repository.</p>
+            <a href="#" class="project-link">View Project</a>
+        </div>
+        <!-- Repeat the above project div for each project -->
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Feel free to reach out for collaborations or just a friendly chat.</p>
+        <form action="submit_form.php" method="POST">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+        <div class="social-links">
+            <a href="#">LinkedIn</a> | <a href="#">GitHub</a>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
